@@ -1,0 +1,15 @@
+.notFound__container {
+    background-color: rgba(229, 231, 235, 1);
+}
+
+.notFoundMsg__container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+}
+
+.notFoundMsg__format {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}

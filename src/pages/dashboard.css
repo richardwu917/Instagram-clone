@@ -1,0 +1,13 @@
+.dashboard__container {
+    background-color: rgba(249, 250, 251, 1);
+}
+
+.dashboard__content {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+}

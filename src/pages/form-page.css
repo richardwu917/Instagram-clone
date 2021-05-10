@@ -1,0 +1,113 @@
+.page__container {
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 768px;
+    align-items: center;
+    height: 100vh;
+}
+
+.image__container {
+    display: flex;
+    width: 60%;
+    height: 90vh;
+}
+
+.form__container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(249, 250, 251, 1);
+    padding: 1rem;
+    border-width: 1px;
+    border-color: rgba(249, 250, 251, 1);
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+
+}
+
+.logo__container {
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo {
+    margin-top: 0.5rem;
+    width: 60%;
+    margin-bottom: 1rem;
+}
+
+.form__error {
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: rgb(160, 10, 35);
+}
+
+.form__field {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: rgba(31, 41, 55, 1);
+    width: 90%;
+    margin-right: 0.75rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 0.5rem;
+    border-width: 1px;
+    border-color: rgba(249, 250, 251, 1);
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.form__alternate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 1rem;
+    border-radius: 0.25rem;
+    border-width: 1px;
+    border-color: rgba(249, 250, 251, 1);
+}
+
+.alterante__text {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.link {
+    font-weight: 700;
+    color: rgba(29, 78, 216, 1);
+}
+
+button {
+    background-color: rgba(29, 78, 216, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 100%;
+    border-radius: 0.25rem;
+    height: 2rem;
+    font-weight: 700;
+}
+
+button:disabled,
+button[disabled] {
+    background-color: rgba(29, 78, 216, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 100%;
+    border-radius: 0.25rem;
+    height: 2rem;
+    font-weight: 700;
+    opacity: 0.5;
+}
