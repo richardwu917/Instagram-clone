@@ -1,0 +1,40 @@
+.avatarSubmit__button {
+    border: none;
+    outline: none;
+    background-color: rgba(48, 148, 214, 0.75);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.avatarSubmit__button:disabled {
+    border: none;
+    outline: none;
+    background-color: rgba(48, 148, 214, 0.75);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.fileInput__text {
+    position: absolute;
+	z-index: 1;
+    margin: 0;
+    color: rgb(48, 148, 214);
+    font-weight: 700;
+}
+
+.file__input {
+    position: relative;
+    z-index:2;
+    opacity: 0;
+}
+
+.fileInput__container {
+    position: relative;
+}
