@@ -1,0 +1,56 @@
+.photos__container {
+    height: 4rem;
+    border-top-width: 1px;
+    border-color: rgba(75, 85, 99, 1);
+    margin-top: 3rem;
+    padding-top: 1rem;
+}
+
+.photos__layout {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 3em;
+}
+
+.photo__container {
+    position: relative;
+    width: 100%
+}
+
+.photo {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.photo__overlay {
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 10;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.photo:hover + .photo__overlay {
+    display: block;
+}
+
+.photo__svgContainer {
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+}
+
+.photo__svg {
+    width: 2rem;
+    margin-right: 1rem;
+}
